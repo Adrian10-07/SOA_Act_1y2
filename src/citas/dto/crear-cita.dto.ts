@@ -2,7 +2,7 @@ import { ApiProperty } from '@nestjs/swagger';
 import {
   IsString,IsNotEmpty,IsDateString,IsOptional,IsIn,MaxLength,Matches,} from 'class-validator';
 
-/** DTO para la operacion crearCita (Tarea 2a).*/
+/** DTO para la operacion crearCita*/
 export class CrearCitaDto {
   @ApiProperty({
     example: 'MAS-4501',
